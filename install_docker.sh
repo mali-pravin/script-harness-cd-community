@@ -5,7 +5,6 @@ function install_docker_ubuntu()
 #Install Docker
     echo -e "\n\e[1;32m Installing Docker \e[0m\n"
     sudo apt-get update
-    sudo apt-get install vim git -y
     sudo apt-get install ca-certificates curl gnupg lsb-release -y 
     sudo mkdir -p /etc/apt/keyrings
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
